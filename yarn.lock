@@ -798,7 +798,12 @@
   optionalDependencies:
     "rxjs" "*"
 
-"typedoc@^0.23.28":
+"typedoc-plugin-mdn-links@^3.0.3":
+  "integrity" "sha512-NXhIpwQnsg7BcyMCHVqj3tUK+DL4g3Bt96JbFl4APzTGFkA+iM6GfZ/fn3TAqJ8O0CXG5R9BfWxolw1m1omNuQ=="
+  "resolved" "https://registry.npmjs.org/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.0.3.tgz"
+  "version" "3.0.3"
+
+"typedoc@^0.23.28", "typedoc@>= 0.23.14 || 0.24.x":
   "integrity" "sha512-9x1+hZWTHEQcGoP7qFmlo4unUoVJLB0H/8vfO/7wqTnZxg4kPuji9y3uRzEu0ZKez63OJAUmiGhUrtukC6Uj3w=="
   "resolved" "https://registry.npmjs.org/typedoc/-/typedoc-0.23.28.tgz"
   "version" "0.23.28"

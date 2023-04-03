@@ -3,7 +3,7 @@ import { Callbacks, MembraneWebRTC, Peer, SerializedMediaEvent, TrackContext } f
 import TypedEmitter from "typed-emitter";
 import { EventEmitter } from "events";
 
-type MessageEvents = Omit<Required<Callbacks>, "onSendMediaEvent"> & {
+export type MessageEvents = Omit<Required<Callbacks>, "onSendMediaEvent"> & {
   onSocketClose: (event: CloseEvent) => void;
   onSocketError: (event: Event) => void;
   onSocketOpen: (event: Event) => void;
